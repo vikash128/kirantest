@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class QuesetionsController {
 	
 	public Quesetion getQuesetions() {
-		Quesetion quesetion = new Quesetion();
+		Quesetion quesetion = new Quesetion(); //This is just dummy code.
 		quesetion.setQuesetionText("Java is plateform independent.");
 		quesetion.setOption1("Yes");
 		quesetion.setOption2("No");
